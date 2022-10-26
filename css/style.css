@@ -124,12 +124,6 @@ img {
   color: #333333;
 }
 
-.id {
-  font-weight: 400;
-  font-size: 12px;
-  color: #b0b0b0;
-}
-
 .creationdate span {
   font-weight: 400;
   font-size: 14px;
@@ -194,4 +188,15 @@ img {
   background-image: url("../images/arrow_downward.svg");
 }
 
+tr .id {
+  font-weight: 400;
+  font-size: 12px;
+  color: #b0b0b0;
+}
 
+.creationdate span {
+  margin-left: 8px;
+}
+.changedate span {
+  margin-left: 8px;
+}
