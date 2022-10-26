@@ -61,7 +61,13 @@ const createClientsItem = (
   };
 };
 
-createClientsItem("123456", "Медведев Борис Николаевич", "22.10.1978", "changeDate", "contacts");
 const btn = document.querySelector(".addclient");
 btn.addEventListener("click", () => {
+  createClientsItem(
+    "123456",
+    "Медведев Борис Николаевич",
+    "22.10.1978",
+    "22.10.1978",
+    "contacts"
+  );
 });
