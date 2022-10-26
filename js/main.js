@@ -1,4 +1,10 @@
-const createClientsItem = (id1, fio1, creationDate1, changeDate1, contacts1) => {
+const createClientsItem = (
+  id1,
+  fio1,
+  creationDate1,
+  changeDate1,
+  contacts1
+) => {
   const clientsBox = document.querySelector(".clients");
   const clientsList = document.createElement("tr");
   const id = document.createElement("td");
@@ -55,4 +61,7 @@ const createClientsItem = (id1, fio1, creationDate1, changeDate1, contacts1) => 
   };
 };
 
-createClientsItem("123456", "fio", "creationDate", "changeDate", "contacts");
+createClientsItem("123456", "Медведев Борис Николаевич", "22.10.1978", "changeDate", "contacts");
+const btn = document.querySelector(".addclient");
+btn.addEventListener("click", () => {
+});
